@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container-logo">
+            <img src="assets/Logo-freshy.png" alt="" class="logo">
+        </div>
+        <div class="container-navigasi">
+            <a href="#slider">Home</a>
+            <a href="#package">Our Packages</a>
+            <a href="#call">Call Us</a>
+        </div>
+
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <a href="#slider" class="sidebar-link">Home</a>
+            <a href="#package" class="sidebar-link">Our Packages</a>
+            <a href="#call" class="sidebar-link">Call Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <!--* Title -->
+        <div class="container-title">
+            <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            <p>Everyday with best ingredients</p>
+        </div>
+        <!--* End of Title -->
+
+        <!--* Content -->
+        <div class="section-3">
+            <div class="section-kiri">
+                <!-- * Slider -->
+                <div class="container-slider" id="slider">
+                    <img src="assets/image-1.png" alt="">
+                </div>
+
+                <p class="caption"><i>“Setiap hari beli sayur buah yang fresh disini”</i></p>
+
+                <div class="container-review">
+                    <img src="assets/person.png" alt="">
+                    <div class="container-nama-profesi">
+                        <p class="nama-orang">Florence Hughes</p>
+                        <p class="profesi"><i>Ibu Rumah Tangga, 28</i></p>
+                    </div>
+                </div>
+
+                <p class="description">Nikmati sayur dan buah-buahan segar pilihan langsung dari kebun kami. Kami juga
+                    menyediakan berbagai peralatan dapur lengkap untuk memenuhi kebutuhan memasak Anda sehari-hari.</p>
+
+                <div class="container-benefit">
+                    <div class="benefit">
+                        <img src="assets/1.png" alt="">
+                        <p class="b">Dapatkan sayur dan buah-buahan berkualitas tinggi serta peralatan dapur terbaik
+                            hanya di sini. Kami menyediakan produk ramah lingkungan yang segar dan siap digunakan</p>
+                    </div>
+
+                    <div class="benefit">
+                        <img src="assets/2.png" alt="">
+                        <p class="b">Belanja sayur dan buah-buahan segar bersama dengan peralatan dapur modern. Kami
+                            selalu mengutamakan kualitas dan memberikan kemudahan dalam berbelanja kebutuhan dapur Anda
+                        </p>
+                    </div>
+
+                    <div class="benefit">
+                        <img src="assets/3.png" alt="">
+                        <p class="b">Jadikan dapur Anda lebih lengkap dengan sayur dan buah-buahan segar serta peralatan
+                            dapur inovatif dari kami. Semua kebutuhan dapur dalam satu tempat !</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- * Contact Us -->
+            <div class="container-contact-us">
+                <div class="container-info">
+                    <h3>Contact Us</h3>
+                    <p>Sales akan menghubungi Anda 1x24 jam setelah data kami terima</p>
+                </div>
+
+                <form id="contact-form">
+                    <label for="name" class="hint-nama">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                    <div class="error" id="name-error"></div>
+
+                    <label for="email" class="hint-email">Email Address:</label>
+                    <input type="text" id="email" name="email" placeholder="example@email.com">
+                    <div class="error" id="email-error"></div>
+
+                    <label for="interest" class="hint-interest">What are you interested in?</label>
+                    <select id="interest" name="interest">
+                        <option value="">Please select</option>
+                        <option value="uiux">UI/UX Designer</option>
+                        <option value="frontend">Front End Developer</option>
+                        <option value="backend">Back End Developer</option>
+                        <option value="pm">Project Management</option>
+                    </select>
+                    <div class="error" id="interest-error"></div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!--* End of Content -->
+
+        <!--* Our Package -->
+        <div class="container-title-our-package" id="package">
+            <h1>Our Package</h1>
+        </div>
+        <!--* End of Our Package -->
+
+        <!--* Section 4  -->
+        <div class="section-4">
+            <div class="poin">
+                <img src="assets/sayur.svg" alt="">
+                <div class="container-deskripsi-poin">
+                    <p class="judul-poin">Fresh Vegetable</p>
+                    <p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+                </div>
+            </div>
+
+            <div class="poin">
+                <img src="assets/buah.svg" alt="">
+                <div class="container-deskripsi-poin">
+                    <p class="judul-poin">Fresh Fruit</p>
+                    <p>Buah dengan kualitas terbaik dari local atau import dan harga yang menarik</p>
+                </div>
+            </div>
+
+            <div class="poin">
+                <img src="assets/keranjang.svg" alt="">
+                <div class="container-deskripsi-poin">
+                    <p class="judul-poin">Instant Delivery</p>
+                    <p>Dikirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu
+                    </p>
+                </div>
+            </div>
+
+            <div class="poin">
+                <img src="assets/kitchen-ingredients.svg" alt="">
+                <div class="container-deskripsi-poin">
+                    <p class="judul-poin">Kitchen Ingredient</p>
+                    <p>Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+                </div>
+            </div>
+
+            <div class="poin">
+                <img src="assets/kitchen-set.svg" alt="">
+                <div class="container-deskripsi-poin">
+                    <p class="judul-poin">Kitchen Set</p>
+                    <p>Segala jenis alat masak untuk membantu kamu memasak</p>
+                </div>
+            </div>
+
+            <div class="poin">
+                <img src="assets/bundle-set.svg" alt="">
+                <div class="container-deskripsi-poin">
+                    <p class="judul-poin">Bundling Set</p>
+                    <p>Bingun masak apa ? sudah tersedia paket untuk kamu masak di dapurmu</p>
+                </div>
+            </div>
+        </div>
+        <!-- * End of Section 4 -->
+
+        <!--* Closing -->
+        <div class="container-closing" id="call">
+            <h1>Belanja Sekarang & Nikmati Promonya !</h1>
+            <p>Kami selalu menggunakan produk ramah lingkungan dan setiap kebutuhan yang Anda beli akan didonasikan bagi
+                pihak yang membutuhkan sebagai bentuk kepedulian kami. <br>
+                Dengan berbelanja di sini, Anda tidak hanya
+                mendapatkan produk berkualitas tinggi tetapi juga berkontribusi pada lingkungan dan membantu mereka yang
+                membutuhkan. <br>
+                Terima kasih telah menjadi bagian dari misi kami untuk menciptakan dunia yang lebih baik.
+            </p>
+            <button class="cta">Belanja Sekarang</button>
+        </div>
+        <!--* End of Closing -->
+    </main>
+    <footer>
+        <h2><i>FRESHY</i></h2>
+        <div class="term-privacy">
+            <p>Terms of Service</p>
+            <p>Privacy Policy</p>
+        </div>
+        <p>© 2022 FRESHY. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
